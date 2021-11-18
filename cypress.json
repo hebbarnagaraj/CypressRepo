@@ -1,0 +1,16 @@
+{
+  "projectId": "qngst8",
+  "testFiles": "**/*.feature",
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome",
+    "mochawesomeReporterOptions": {
+      "reportDir": "cypress/reports/",
+      "quite": true,
+      "overwrite": false,
+      "html": true,
+      "json": false,
+      "timestamp": "mmddyyyy_HHMMss"
+    }
+  }
+}

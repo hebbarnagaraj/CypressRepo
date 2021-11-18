@@ -1,0 +1,53 @@
+[
+  {
+    "description": "    Login to Workday and Verify HomePage",
+    "keyword": "Feature",
+    "name": "Workday",
+    "line": 1,
+    "id": "workday",
+    "tags": [],
+    "uri": "workdayLogin.feature",
+    "elements": [
+      {
+        "id": "workday;login-to-workday-and-verify-homepage",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Login to workday and Verify Homepage",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "open the browser and enter the URL",
+            "result": {
+              "status": "passed",
+              "duration": 8193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "enter userName and Password",
+            "result": {
+              "status": "passed",
+              "duration": 677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "click login and verify Homepage",
+            "result": {
+              "status": "passed",
+              "duration": 10195000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
